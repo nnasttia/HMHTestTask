@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="uk" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>HMH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test Task" />
+    <meta name="keywords" content="test, task, HMH">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="wrapper main">
+        <h1 class="hero-title">
+            <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 18 18"><g clip-path="url(#a)"><path fill="#FFB533" d="M14.484 12.34c-1.971 0-3.515-1.081-3.515-2.461s1.544-2.461 3.515-2.461c1.972 0 3.516 1.081 3.516 2.46 0 1.38-1.544 2.462-3.516 2.462Zm0-3.516c-.612 0-1.2.149-1.616.408-.313.196-.493.432-.493.647 0 .215.18.45.493.647.415.259 1.004.408 1.616.408.613 0 1.202-.15 1.616-.408.314-.196.494-.432.494-.647 0-.215-.18-.45-.494-.647-.414-.26-1.003-.408-1.616-.408Zm3.19 8.199a.703.703 0 0 0-.825-1.14c-1.3.943-3.499.943-4.8 0a.703.703 0 0 0-.825 1.14c.87.63 2.016.977 3.225.977 1.21 0 2.355-.347 3.225-.977Zm0-2.848a.703.703 0 0 0-.825-1.139c-1.3.942-3.499.942-4.8 0a.703.703 0 1 0-.825 1.139c.87.63 2.016.977 3.225.977 1.21 0 2.355-.347 3.225-.977Zm-7.936 3.122a.703.703 0 0 0-.703-.703H4.22a2.816 2.816 0 0 1-2.813-2.813V11.1c0-1.364.615-2.63 1.686-3.473L5.603 5.65a.703.703 0 0 0 .157-.931L4.011 1.986a.369.369 0 0 1-.013-.384.369.369 0 0 1 .33-.196h8.724c.2 0 .298.137.33.195a.369.369 0 0 1-.012.383l-1.73 2.738a.703.703 0 0 0 .153.923l1.02.822a.703.703 0 0 0 .882-1.094l-.531-.43 1.395-2.207A1.783 1.783 0 0 0 13.052 0H4.329a1.782 1.782 0 0 0-1.502 2.744L4.232 4.94l-2.01 1.583A5.86 5.86 0 0 0 .585 8.556 5.86 5.86 0 0 0 0 11.1v2.681A4.224 4.224 0 0 0 4.219 18h4.816a.703.703 0 0 0 .703-.703Zm.598-12.2a.703.703 0 0 0-.703-.702H7.77a.703.703 0 1 0 0 1.406h1.863a.703.703 0 0 0 .703-.703Z"/></g><defs><linearGradient id="b" x1="0" x2="18" y1="14.063" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE324"/><stop offset="1" stop-color="#FFB533"/></linearGradient><clipPath id="a"><path fill="#fff" d="M0 0h18v18H0z"/></clipPath></defs></svg>
+            Переказ балансу між користувачами
+        </h1>
+        <form action="#" class="wrapper-m">
+            <div class="section-balance">
+                <p class="d-flex flex-wrap box-info">
+                    <span>Ваш баланс у системі</span>
+                    <span>на зараз</span>
+                    <span class="sum">
+                        <span class="icon"></span>
+                        363,00
+                    </span>
+                </p>
+                <div class="text-center">
+                    <div class="box-date">
+                        <span class="d-block">
+                            дата <time datetime="2021-02-19">19.02.2021</time>
+                        </span>
+                        час <time datetime="T12:21">12:21</time>
+                    </div>
+                </div>
+            </div>
+            <div class="section-action">
+                <div class="section-user-choose">
+                    <div class="form-group d-flex flex-wrap">
+                        <label for="name" class="w-sm-100 w-md-35 form-label">Виберіть користувача</label>
+                        <div class="w-sm-100 w-md-39">
+                            <input class="form-control-search" type="search" id="name" placeholder="Введіть ID або ім'я користувача">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="w-md-40">
+                            <div class="form-group-radio">
+                                <label class="check">
+                                    <input type="radio" name="options" value="option1" class="check-input">
+                                    <span class="check-box"></span>
+                                    Інший
+                                </label>
+                            </div>
+                            <div class="form-group-radio">
+                                <label class="check">
+                                    <input type="radio" name="options" value="option2" class="check-input">
+                                    <span class="check-box"></span>
+                                    Експерт
+                                </label>
+                            </div>
+                            <div class="form-group-radio">
+                                <label class="check">
+                                    <input type="radio" name="options" value="option3" class="check-input">
+                                    <span class="check-box"></span>
+                                    Користувач
+                                </label>
+                            </div>
+                        </div>
+                        <div class="user-block d-flex">
+                            <div class="user-block-avatar">
+                                <img src="images/novikov.png" width="45" height="45" alt="Фото Віктора Новікова">
+                                <span class="user-status active">
+                                    <span class="sc-reader-only">Віктор Новіков онлайн</span>
+                                </span>
+                            </div>
+                            <div class="user-block-info">
+                                Віктор Новіков
+                                <span class="d-block"> м. Київ</span>
+                                <span class="user-rewards">
+                                    <span class="sc-reader-only"></span>
+                                    13 / 202
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-transfer">
+                <fieldset class="form-transfer first">
+                    <legend>Я хочу перекласти</legend>
+                    <div class="d-flex">
+                        <div class="form-group-radio">
+                            <label class="check">
+                                <input type="checkbox" class="check-input" checked>
+                                <span class="check-box"></span>
+                                МАКС
+                            </label>
+                        </div>
+                        <div class="form-group first">
+                            <input class="form-control text-center" type="text" placeholder="27.00">
+                        </div>
+                        <div class="form-group last">
+                            <button class="btn btn-secondary btn-block text-uppercase" type="button">Конвертувати</button>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="form-transfer last">
+                    <legend>Сума до переказу:</legend>
+                    <div class="d-flex">
+                        <div class="form-group">
+                            <input class="form-control text-center" type="text" placeholder="26.73">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-secondary btn-block text-uppercase" type="button">Переказати</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            </div>
+            <div class="section-action last">
+                <div class="section-user-choose">
+                    <div class="form-group d-flex flex-wrap">
+                        <label for="name1" class="w-sm-100 w-md-35 form-label">Виберіть користувача</label>
+                        <div class="w-sm-100 w-md-39">
+                            <input class="form-control-search" type="search" id="name1" placeholder="Введіть ID або ім'я користувача">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="w-md-40">
+                            <div class="form-group-radio">
+                                <label class="check">
+                                    <input type="radio" name="options" value="option1" class="check-input">
+                                    <span class="check-box"></span>
+                                    Інший
+                                </label>
+                            </div>
+                            <div class="form-group-radio">
+                                <label class="check">
+                                    <input type="radio" name="options" value="option2" class="check-input">
+                                    <span class="check-box"></span>
+                                    Експерт
+                                </label>
+                            </div>
+                            <div class="form-group-radio">
+                                <label class="check">
+                                    <input type="radio" name="options" value="option3" class="check-input">
+                                    <span class="check-box"></span>
+                                    Користувач
+                                </label>
+                            </div>
+                        </div>
+                        <div class="user-block d-flex">
+                            <label class="checkbox">
+                                <input class="checkbox-input" type="checkbox">
+                                <span class="checkbox-box"></span>
+                                <span class="sc-reader-only">Обрати Марію Павлову</span>
+                            </label>
+                            <div class="user-block-avatar">
+                                <img src="images/pavlova.png" width="45" height="45" alt="Фото Марія Павлова">
+                                <span class="user-status active">
+                                    <span class="sc-reader-only">Марія Павлова онлайн</span>
+                                </span>
+                            </div>
+                            <div class="user-block-info">
+                                Марія Павлова
+                                <span class="d-block"> м. Київ</span>
+                                <span class="user-rewards">
+                                    <span class="sc-reader-only"></span>
+                                    25 / 190
+                                </span>
+                            </div>
+                            <button type="button" class="user-block-delete">
+                                <span class="sc-reader-only">Видалити Марію Павлову</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-transfer">
+                    <fieldset class="form-transfer first">
+                        <legend>Я хочу перекласти</legend>
+                        <div class="d-flex">
+                            <div class="form-group-radio">
+                                <label class="check">
+                                    <input type="checkbox" name="max" value="max" class="check-input">
+                                    <span class="check-box"></span>
+                                    МАКС
+                                </label>
+                            </div>
+                            <div class="form-group first">
+                                <input class="form-control text-center" type="text" placeholder="27.00">
+                            </div>
+                            <div class="form-group last">
+                                <button class="btn btn-secondary btn-block text-uppercase" type="button">Конвертувати</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-transfer last">
+                        <legend>Сума до переказу:</legend>
+                        <div class="d-flex">
+                            <div class="form-group">
+                                <input class="form-control text-center" type="text" placeholder="26.73">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-secondary btn-block text-uppercase" type="button">Переказати</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="block-two-buttons">
+                <button class="btn btn-primary" type="submit">Підтвердити</button>
+                <button class="btn btn-primary" type="reset">Скасувати</button>
+            </div>
+            <div class="block-one-button">
+                <button class="btn btn-secondary btn-block" type="button">Створити ще переказ</button>
+            </div>
+            <p class="mb-0">При переведенні балансу системою стягується 1% до переказу</p>
+            <p class="text-danger">Переклад здійснюється лише всередині системи</p>
+        </form>
+    </main>
+</body>
+</html>
